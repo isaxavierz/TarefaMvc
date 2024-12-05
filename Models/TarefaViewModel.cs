@@ -13,7 +13,7 @@ namespace TarefasMvc.Models
         public string Categoria { get; set; } = string.Empty;     
         public string Descricao { get; set; } = string.Empty;    
         public DateTime DataCriacao  { get; set; }
-        public DateTime DataExpiracao  { get; set; }""
+        public DateTime DataExpiracao  { get; set; }
         public TipoPrioridadeEnum Prioridade { get; set; }
         public TipoStatusEnum Status { get; set; }
         public byte[]? FotoTarefa { get; set; }               
